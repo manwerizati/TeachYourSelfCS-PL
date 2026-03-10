@@ -4,7 +4,7 @@
 
 [Strona internetowa polskiego tłumaczenia.](https://wiktor-rocks.github.io/TeachYourSelfCS-PL/)
 
-Uwaga: ten przewodnik był szeroko zaktualizowany w maju 2020 roku. Do poprzedniej wersji, [kliknij tutaj](https://teachyourselfcs.com/2016/).
+Uwaga: ten przewodnik był szeroko zaktualizowany w maju 2020 roku. Aby przejść do poprzedniej wersji, [kliknij tutaj](https://teachyourselfcs.com/2016/).
 
 Jeśli jesteś samoukiem lub absolwentem bootcampu, powinieneś nauczyć się informatyki. Na szczęście możesz zdobyć światowej klasy wykształcenie w tej dziedzinie bez wieloletniego studiowania i wydawania fortuny na dyplom 💸.
 
@@ -17,15 +17,15 @@ Ten poradnik jest naszą próbą udzielenia ostatecznych odpowiedzi na te pytani
 
 ## TL;DR (Podsumowanie):
 
-Przestudiuj wszystkie dziewięć tematów poniżej, mniej więcej w podanej kolejności, korzystając z podręcznika lub serii wykładów video, ale idealnie z obu. Poświęć około 100-200 godzin na każdy temat, a następnie powracaj do ulubionych tematów w trakcie swojej kariery 🚀.
+Przestudiuj wszystkie dziewięć tematów poniżej, mniej więcej w podanej kolejności, korzystając z podręcznika lub serii wykładów wideo, ale idealnie z obu. Poświęć około 100-200 godzin na każdy temat, a następnie powracaj do ulubionych tematów w trakcie swojej kariery 🚀.
 
-|Temat|Dlaczego warto się go nauczyć?|Książka|Wykłady video|
+|Temat|Dlaczego warto się go nauczyć?|Książka|Wykłady wideo|
 |---|---|---|---|
 |**[Programowanie](#programowanie)**|Nie bądź osobą, która "nigdy do końca nie zrozumiała" czegoś takiego jak rekurencja.|_Structure and Interpretation of Computer Programs_|Wykłady Briana Harveya z Berkeley CS 61A|
-|**[Architektura komputerów](#architektura-komputerów)**|Jeśli nie masz solidnego modelu mentalnego tego, jak komputer faktycznie działa, wszystkie twoje wyższo poziomowe abstrakcje będą kruche.|_Computer Systems: A Programmer's Perspective_|Berkeley CS 61C|
+|**[Architektura komputerów](#architektura-komputerów)**|Jeśli nie masz solidnego modelu mentalnego tego, jak komputer faktycznie działa, wszystkie twoje wysokopoziomowe abstrakcje będą kruche.|_Computer Systems: A Programmer's Perspective_|Berkeley CS 61C|
 |**[Algorytmy i struktury danych](#algorytmy-i-struktury-danych)**|Jeśli nie umiesz korzystać z powszechnych struktur danych, takich jak stosy, kolejki, drzewa i grafy, nie będziesz w stanie rozwiązywać trudnych problemów.|_The Algorithm Design Manual_|Wykłady Stevena Skieny|
-|**[Matematyka dla informatyków](#matematyka-dla-informatyków)**|Informatyka to w zasadzie rozgałęzienie stosowanej matematyki, więc nauka matematyki da ci przewagę konkurencyjną.|_Mathematics for Computer Science_|Wykłady Toma Leightona z MIT 6.042J|
-|**[Systemy operacyjne](#systemy-operacyjne)**|Większość pisanego przez Ciebie kodu jest egzekwowana przez system operacyjny, więc powinieneś wiedzieć, jak te elementy współdziałają ze sobą.|_Operating Systems: Three Easy Pieces_|Berkeley CS 162|
+|**[Matematyka dla informatyków](#matematyka-dla-informatyków)**|Informatyka to w zasadzie gałąź matematyki stosowanej, więc nauka matematyki da ci przewagę konkurencyjną.|_Mathematics for Computer Science_|Wykłady Toma Leightona z MIT 6.042J|
+|**[Systemy operacyjne](#systemy-operacyjne)**|Większość pisanego przez Ciebie kodu jest wykonywana przez system operacyjny, więc powinieneś wiedzieć, jak te elementy współdziałają ze sobą.|_Operating Systems: Three Easy Pieces_|Berkeley CS 162|
 |**[Sieci komputerowe](#sieci-komputerowe)**|Internet okazał się wielką sprawą: zrozum jego działanie, aby odblokować jego pełen potencjał.|_Computer Networking: A Top-Down Approach_|Stanford CS 144|
 |**[Bazy danych](#bazy-danych)**|Dane są w sercu większości ważnych programów, ale niewiele osób rozumie, jak działają systemy bazodanowe.|_Readings in Database Systems_|Wykłady Joe Hellersteina z Berkeley CS 186|
 |**[Języki i kompilatory](#języki-i-kompilatory)**|Jeśli zrozumiesz, jak faktycznie działają języki i kompilatory, będziesz pisać lepszy kod i łatwiej nauczysz się nowych języków.|_Crafting Interpreters_|Kurs Alexa Aikena na edX|
@@ -47,7 +47,7 @@ Aktualnie liczba osób wkraczających do branży szybko rośnie, podczas gdy lic
 
 > Globalny system SMS obsługuje około 20 mld wiadomości dziennie. WhatsApp obsługuje 42 mld. Z 57 inżynierami. [pic.twitter.com/zZrtSIzhlR](https://t.co/zZrtSIzhlR)
 > 
-> – Benedict Evans (@BenedictEvans) [2 luty 2016](https://twitter.com/BenedictEvans/status/694342874729545729)
+> – Benedict Evans (@BenedictEvans) [2 lutego 2016](https://twitter.com/BenedictEvans/status/694342874729545729)
 
 [![](https://pfst.cf2.poecdn.net/base/image/0c0e45dafd1ebc8187ec04c3b7496fdee6c7420059c382b155009c09b769f000?w=635&h=557&pmaid=49959650)](https://twitter.com/jenna/status/838161631662092289)
 
@@ -55,7 +55,7 @@ Aktualnie liczba osób wkraczających do branży szybko rośnie, podczas gdy lic
 
 ### Programowanie
 
-Większość studiów informatycznych licencjackich zaczyna się od "wprowadzenia" do programowania komputerów. Najlepsze wersje tych kursów skierowane są nie tylko do początkujących, ale także do tych, którzy przegapili przydatne koncepcje i modele programowania, ucząc się kodowania po raz pierwszy.
+Większość licencjackich studiów informatycznych zaczyna się od "wprowadzenia" do programowania komputerów. Najlepsze wersje tych kursów skierowane są nie tylko do początkujących, ale także do tych, którzy przegapili przydatne koncepcje i modele programowania, ucząc się kodowania po raz pierwszy.
 
 Nasz standardowy wybór do nauki tej tematyki, to klasyczna pozycja _Structure and Interpretation of Computer Programs_, dostępna za darmo online zarówno jako [książka](https://sarabander.github.io/sicp/html/index.xhtml), jak i [zbiór wykładów wideo z MIT](https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/). Choć te wykłady są świetne, zamiast nich sugerujemy obejrzeć [wykłady Briana Harveya dot. SICP](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) (dla kursu 61A na Berkeley). Są one bardziej dopracowane i lepiej skierowane do nowych studentów niż wykłady z MIT.
 
@@ -118,11 +118,11 @@ Na koniec, mocno polecamy _[How to Solve It](https://smile.amazon.com/How-Solve
 
 W pewnym sensie informatyka jest przerośniętą gałęzią matematyki stosowanej. Podczas gdy wielu programistów próbuje - z różnym skutkiem - to zignorować, my zachęcamy, żebyś zgłębił ten temat bezpośrednio. Pomyślne zrobienie tego zapewni ci ogromną przewagę nad tymi, którzy tego nie zrobią.
 
-Najbardziej istotnym obszarem matematyki dla informatyki jest szeroko pojęta "matematyka dyskretna", gdzie "dyskretny" jest przeciwieństwem "ciągły" i jest luźnym zbiorem interesujących zagadnień matematyki stosowanej poza rachunkiem różniczkowym i całkowym. Ze względu na niejasną definicję, nie ma sensu próbować objąć całą szerokość "matematyki dyskretnej". Bardziej realistycznym celem jest zbudowanie działającego zrozumienia logiki, kombinatoryki i rachunku prawdopodobieństwa, teorii mnogości, teorii grafów oraz odrobiny teorii liczb przydatnej w kryptografii. Algebra liniowa to dodatkowy warty zgłębienia obszar ze względu na jej znaczenie w grafice komputerowej i machine learning.
+Najbardziej istotnym obszarem matematyki dla informatyki jest szeroko pojęta "matematyka dyskretna", gdzie "dyskretny" jest przeciwieństwem "ciągły" i jest luźnym zbiorem interesujących zagadnień matematyki stosowanej poza rachunkiem różniczkowym i całkowym. Ze względu na niejasną definicję, nie ma sensu próbować objąć całej szerokość "matematyki dyskretnej". Bardziej realistycznym celem jest zbudowanie działającego zrozumienia logiki, kombinatoryki i rachunku prawdopodobieństwa, teorii mnogości, teorii grafów oraz odrobiny teorii liczb przydatnej w kryptografii. Algebra liniowa to dodatkowy warty zgłębienia obszar ze względu na jej znaczenie w grafice komputerowej i machine learning.
 
-Nasz sugerowany punkt startu dla matematyki dyskretnej, to zestaw [notatek wykładowych László Lovásza](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf). Profesor Lovász dobrze sobie poradził z uczyinieniem treści przystępnej i intuicyjnej, więc stanowią one lepszy punkt startu niż bardziej formalne podręczniki.
+Nasz sugerowany punkt startu dla matematyki dyskretnej, to zestaw [notatek wykładowych László Lovásza](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf). Profesor Lovász dobrze sobie poradził z uczynieniem treści przystępną i intuicyjną, więc stanowią one lepszy punkt startu niż bardziej formalne podręczniki.
 
-Do bardziej zaawansowanego studiowania polecamy _[Mathematics for Computer Science](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)_, notatki wielkości książki z kursu MIT o tej samej nazwie. Wykłady wideo z tego kursu są również [dostępne za darmo](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/) i stanowią naszą rekomendowaną serie wykładów video z matematyki dyskretnej.
+Do bardziej zaawansowanego studiowania polecamy _[Mathematics for Computer Science](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)_, notatki wielkości książki z kursu MIT o tej samej nazwie. Wykłady wideo z tego kursu są również [dostępne za darmo](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/) i stanowią naszą rekomendowaną serie wykładów wideo z matematyki dyskretnej.
 
 Jeśli chodzi o algebrę liniową, sugerujemy rozpoczęcie od serii filmów [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), a następnie książki i wykładów [Gilberta Stranga](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
 
@@ -148,7 +148,7 @@ Biorąc pod uwagę, jak duża część inżynierii oprogramowania dotyczy serwer
 
 Nasz ulubiony podręcznik do tego tematu, to _[Computer Networking: A Top-Down Approach](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)_. Zawarte w książce małe projekty i ćwiczenia są warte wykonania, a szczególnie polecamy "Laboratoria Wireshark", które autorzy hojnie udostępnili [online](http://www-net.cs.umass.edu/wireshark-labs/).
 
-Dla preferujących wykłady video, polecamy [_Introduction to Computer Networking_](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS) ze Stanfordu, wcześniej dostępny na platformie Lagunita tej uczelni, ale niestety obecnie dostępny tylko jako nieoficjalne playlisty na YouTube.
+Dla preferujących wykłady wideo, polecamy [_Introduction to Computer Networking_](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS) ze Stanfordu, wcześniej dostępny na platformie Lagunita tej uczelni, ale niestety obecnie dostępny tylko jako nieoficjalne playlisty na YouTube.
 
 > Nie możesz spojrzeć w kryształową kulę i przewidzieć przyszłości. Tym, czym Internet będzie w przyszłości, jest to, czym społeczeństwo go uczyni.
 
@@ -196,7 +196,7 @@ Nasz sugerowany podręcznik do samodzielnej nauki, to _[Designing Data-Intensiv
 
 Ci, którzy szukają bardziej tradycyjnego podręcznika, lub wolą taki, który jest dostępny za darmo online, mogą sięgnąć po _[Distributed Systems, 3rd Edition](https://www.distributed-systems.net/index.php/books/ds3/)_ autorstwa Maartena van Steena i Andrew Tanenbauma.
 
-Preferującym wykłady video polecamy świetny kurs [MIT 6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) prowadzony przez Roberta Morrisa, którego materiały dostępne są [tutaj](https://pdos.csail.mit.edu/6.824/schedule.html).
+Preferującym wykłady wideo polecamy świetny kurs [MIT 6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) prowadzony przez Roberta Morrisa, którego materiały dostępne są [tutaj](https://pdos.csail.mit.edu/6.824/schedule.html).
 
 Niezależnie od wyboru podręcznika czy innych materiałów, nauka systemów rozproszonych absolutnie wymaga czytania artykułów naukowych. Dobry zbiór znajduje się [tutaj](http://dsrg.pdos.csail.mit.edu/papers/), a także gorąco zachęcamy do uczestniczenia w lokalnym rozdziale [Papers We Love](http://paperswelove.org/).
 
@@ -212,7 +212,7 @@ Zakładamy, że jesteś samoukiem-programistą, absolwentem bootcampu, ambitnym 
 
 Staraliśmy się ograniczyć listę do tematów informatycznych, które uważamy za obowiązkową wiedzę dla _każdego praktykującego inżyniera oprogramowania_, niezależnie od specjalizacji czy branży, ale z naciskiem na systemy. Naszym zdaniem, będą to tematy o najwyższej stopie zwrotu dla zdecydowanej większości samouków i absolwentów bootcampów, dostarczając solidny fundament do dalszej nauki. W rezultacie, znajdziesz się w znacznie lepszej pozycji, aby samodzielnie sięgnąć po podręczniki czy artykuły i poznać kluczowe koncepcje bez specjalnego wsparcia. Oto nasze proponowane punkty startu dla kilku popularnych "zajęć dodatkowych":
 
-- Wprowadzenie do SI: Obiejrzyj [kurs Berkeley AI](http://ai.berkeley.edu/), oglądając nagrania wykładów i wykonując znakomite projekty Pacman. Jako podręcznik, użyj _Artificial Intelligence: A Modern Approach_ autorstwa Russella i Norviga.
+- Wprowadzenie do SI: Obejrzyj [kurs Berkeley AI](http://ai.berkeley.edu/), oglądając nagrania wykładów i wykonując znakomite projekty Pacman. Jako podręcznik, użyj _Artificial Intelligence: A Modern Approach_ autorstwa Russella i Norviga.
 - Uczenie maszynowe: Zrób kurs Andrew Ng na Courserze. Bądź cierpliwy i upewnij się, że rozumiesz podstawy zanim rzucisz się w błyszczące nowe tematy takie jak deep learning.
 - Grafika komputerowa: Przerób materiały z [Berkeley CS 184](http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html), używając jako podręcznika _[Computer Graphics: Principles and Practice](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528)_.
 
